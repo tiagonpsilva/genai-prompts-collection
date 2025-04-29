@@ -16,6 +16,14 @@ Este repositório tem como objetivo fornecer uma coleção organizada de prompts
 - **Arquivo**: [prompt_head_modern_data_stack.md](prompts/prompt_head_modern_data_stack.md)
 - **Descrição**: Auxilia na avaliação e seleção de profissionais para posições relacionadas à Modern Data Stack.
 
+### API App Generator
+- **Arquivo**: [prompt-api-app-generator.md](prompts/prompt-api-app-generator.md)
+- **Descrição**: Gera uma aplicação backend RESTful completa com FastAPI, incluindo estrutura de projeto, banco de dados, documentação e testes.
+
+### OpenAPI + Data Schema Generator
+- **Arquivo**: [prompt-openapi-data-schema-generator.md](prompts/prompt-openapi-data-schema-generator.md)
+- **Descrição**: Gera esquemas de API e modelos de dados a partir de requisitos, incluindo OpenAPI, Postman Collection e MER.
+
 ## 📋 Template para Novos Prompts
 
 Para manter a consistência e qualidade dos prompts, utilize o template disponível em [prompt_template.md](prompts/prompt_template.md) ao adicionar novos prompts à coleção.
@@ -28,6 +36,26 @@ O template inclui seções para:
   - Intenção
   - Formato
   - Instruções específicas
+
+## 📚 Estrutura do Repositório
+
+```
+genai-prompts/
+├── README.md                # Este arquivo
+└── prompts/                 # Pasta contendo todos os prompts disponíveis
+    ├── prompt-architecture-haiku-generator.md
+    ├── prompt_head_modern_data_stack.md
+    ├── prompt-api-app-generator.md
+    ├── prompt-openapi-data-schema-generator.md
+    └── prompt_template.md
+```
+
+## 🚀 Como Usar
+
+1. Escolha o prompt adequado da pasta `prompts/` com base no que você deseja gerar
+2. Siga as instruções detalhadas no arquivo do prompt
+3. Forneça as informações solicitadas no formato especificado
+4. Utilize a saída gerada conforme documentado no prompt
 
 ## 🤝 Contribuindo
 
