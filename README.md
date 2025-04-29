@@ -1,46 +1,44 @@
-# GenAI Prompts Collection
+# Coleção de Prompts para GenAI
 
-## Objetivo
+Uma coleção curada de prompts para Inteligência Artificial Generativa, focada em casos de uso específicos e bem documentados.
 
-Este repositório contém uma coleção de prompts especializados para modelos de linguagem de grande porte (LLMs), projetados para automatizar a geração de código, documentação e artefatos técnicos. Cada prompt é estruturado para produzir resultados específicos, de acordo com a descrição 
+## 🎯 Objetivo
 
-## Instruções de uso
+Este repositório tem como objetivo fornecer uma coleção organizada de prompts para diferentes casos de uso com IAs generativas. Cada prompt é cuidadosamente documentado e testado para garantir resultados consistentes e úteis.
 
-### Pré-requisitos
+## 📚 Prompts Disponíveis
 
-- Acesso a um modelo de linguagem de grande porte compatível (ChatGPT, Claude, Gemini, etc.)
-- Conhecimento básico das tecnologias envolvidas nos projetos gerados
+### Architecture Haiku Generator
+- **Arquivo**: [prompt-architecture-haiku-generator.md](prompts/prompt-architecture-haiku-generator.md)
+- **Descrição**: Gera um documento Architecture Haiku a partir de uma descrição de alto nível do projeto, facilitando a comunicação e alinhamento entre stakeholders.
 
-### Como usar os prompts
+### Modern Data Stack Head Hunter
+- **Arquivo**: [prompt_head_modern_data_stack.md](prompts/prompt_head_modern_data_stack.md)
+- **Descrição**: Auxilia na avaliação e seleção de profissionais para posições relacionadas à Modern Data Stack.
 
-1. **Selecione o prompt adequado** da pasta `prompts/` com base no que você deseja gerar
-2. **Forneça o prompt ao LLM** de sua escolha
-3. **Adicione informações específicas** conforme solicitado pelo prompt (requisitos, modelos de dados, etc.)
-4. **Receba e utilize os artefatos gerados** pelo modelo
+## 📋 Template para Novos Prompts
 
-### Prompts disponíveis
+Para manter a consistência e qualidade dos prompts, utilize o template disponível em [prompt_template.md](prompts/prompt_template.md) ao adicionar novos prompts à coleção.
 
-#### API App Generator (`prompts/prompt-api-app-generator.md`)
-Gera uma aplicação backend RESTful completa baseada nos artefatos fornecidos. O resultado inclui:
-- Código-fonte Python/FastAPI com estrutura de projeto completa
-- Configuração de banco de dados SQLite com SQLAlchemy
-- Documentação (inclusive C4Model)
-- Arquivos de configuração (Docker, Terraform, etc.)
-- Testes unitários
-- Entre outros artefatos
+O template inclui seções para:
+- Nome do Prompt
+- Descrição
+- Instruções detalhadas
+  - Contexto
+  - Intenção
+  - Formato
+  - Instruções específicas
 
-#### OpenAPI + Data Schema Generator (`prompts/prompt-openapi-data-schema-generator.md`)
-Gera esquemas de API e modelos de dados a partir de requisitos. Os resultados incluem:
-- Arquivo YAML com o schema OpenAPI
-- Collection do Postman em JSON
-- Modelo Entidade-Relacionamento (MER) em PlantUML
-- Schema SQL com dados de exemplo para SQLite
+## 🤝 Contribuindo
 
-## Estrutura do Repositório
-```
-genai-prompts/
-├── README.md                # Este arquivo
-└── prompts/                 # Pasta contendo todos os prompts disponíveis
-    ├── prompt-api-app-generator.md
-    └── prompt-openapi-data-schema-generator.md
-```
+Contribuições são bem-vindas! Para adicionar um novo prompt:
+
+1. Use o template disponível em [prompt_template.md](prompts/prompt_template.md)
+2. Crie um novo arquivo na pasta `prompts/`
+3. Documente cuidadosamente seu prompt seguindo o formato estabelecido
+4. Teste o prompt para garantir resultados consistentes
+5. Submeta um Pull Request com suas alterações
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
