@@ -1,9 +1,9 @@
 # Nome
 
-Head de Dados
+AI Tutor Generator
 
 # Descrição
-Prompt com o perfil do Head de Dados focado em Modern Data Stack.
+Gerador de treinamentos personalizados no estilo roadmap.sh.
 
 # Instruções
 
