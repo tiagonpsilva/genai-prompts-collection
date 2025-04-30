@@ -16,13 +16,17 @@ Este repositório tem como objetivo fornecer uma coleção organizada de prompts
 - **Arquivo**: [prompt_head_modern_data_stack.md](prompts/prompt_head_modern_data_stack.md)
 - **Descrição**: Auxilia na avaliação e seleção de profissionais para posições relacionadas à Modern Data Stack.
 
-### API App Generator
-- **Arquivo**: [prompt-api-app-generator.md](prompts/prompt-api-app-generator.md)
-- **Descrição**: Gera uma aplicação backend RESTful completa com FastAPI, incluindo estrutura de projeto, banco de dados, documentação e testes.
+### Tutorial Generator
+- **Arquivo**: [prompt-tutorial-generator.md](prompts/prompt-tutorial-generator.md)
+- **Descrição**: Gera tutoriais estruturados no estilo roadmap.sh, com uma abordagem passo a passo e conteúdo personalizado.
 
-### OpenAPI + Data Schema Generator
-- **Arquivo**: [prompt-openapi-data-schema-generator.md](prompts/prompt-openapi-data-schema-generator.md)
-- **Descrição**: Gera esquemas de API e modelos de dados a partir de requisitos, incluindo OpenAPI, Postman Collection e MER.
+### MCP Server Demo
+- **Arquivo**: [prompt-mcp-server-demo.md](prompts/prompt-mcp-server-demo.md)
+- **Descrição**: Demonstração de integração com GitHub usando MCP (Multi-Cloud Protocol) para automação de tarefas.
+
+### LangChain Tutorial
+- **Arquivo**: [prompt-langchain-tutorial.md](prompts/prompt-langchain-tutorial.md)
+- **Descrição**: Tutorial interativo para aprender e implementar soluções usando o framework LangChain.
 
 ## 📋 Template para Novos Prompts
 
@@ -45,8 +49,9 @@ genai-prompts/
 └── prompts/                 # Pasta contendo todos os prompts disponíveis
     ├── prompt-architecture-haiku-generator.md
     ├── prompt_head_modern_data_stack.md
-    ├── prompt-api-app-generator.md
-    ├── prompt-openapi-data-schema-generator.md
+    ├── prompt-tutorial-generator.md
+    ├── prompt-mcp-server-demo.md
+    ├── prompt-langchain-tutorial.md
     └── prompt_template.md
 ```
 
